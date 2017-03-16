@@ -1,0 +1,31 @@
+{
+  "name": "react-native-cropper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "files": [
+    "android",
+    "ios",
+    "script",
+    "index.js"
+  ],
+  "author": "YuTin",
+  "license": "MIT",
+  "rnpm": {
+    "commands": {
+      "postlink": "node node_modules/react-native-cropper/script/postlink"
+    }
+  },
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  },
+  "dependencies": {
+    "react-native-link-package": "^1.5.3"
+  }
+}
